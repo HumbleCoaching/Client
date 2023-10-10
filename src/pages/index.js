@@ -1,8 +1,10 @@
-import * as React from "react"
+import * as React from "react";
+import { Link } from "gatsby"
 
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <Link to="/hello" className="text-xl text-blue-700 font-bold hover:underline ">Go to the first page</Link>
       <h1 style={headingStyles}>
         Congratulations
         <br />

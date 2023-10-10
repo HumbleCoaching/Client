@@ -1,18 +1,22 @@
 import React from 'react'
-import Header from '../components/Header';
-import Subheader from '../components/Subheader';
+import Navbar from '../components/Navbar';
+import Content from '../components/Content';
+import Hero from '../components/Hero';
 
 function Hello() {
     return (
-        <header className="m-2">
-            <Header headerText="Hello, world!" />
-            <Subheader subtext="This is my first Gatsby project! I am really excited to know what lies ahead of me in this journey" />
-        </header>
+        <article>
+            <header className="relative">
+                <Navbar />
+            </header>
+            <Content />
+            <Hero />
+        </article>
     )
 }
 
 export default Hello;
 
-export const Head  = () => (
+export const Head = () => (
     <title>Hello</title>
 )
