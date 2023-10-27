@@ -4,6 +4,9 @@ import Content from '../components/Content';
 import Hero from '../components/Hero';
 import Jumbotron from '../components/Jumbotron';
 import Purpose from '../components/Purpose';
+import Features from '../components/Features';
+
+
 import mindVector from '../images/icons/mind-vector.svg'
 
 
@@ -22,6 +25,8 @@ function Hello() {
                 imgsrc={mindVector}
             />
             <Purpose />
+            <Features />
+            
         </article>
     )
 }

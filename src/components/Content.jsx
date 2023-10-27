@@ -5,15 +5,6 @@ function Content() {
     <section className="px-10 mt-16">
         <h2 className="text-2xl font-bold">Contents of the webpage</h2>
         <ul className="list-disc">
-            <li>Why Life Coaching is important for you?</li>
-            <li>How we can help</li>
-            <li>
-                Features
-                <ul className="indent-4">
-                    <li>Section-wise features</li>
-                    <li>Horizontal cards</li>
-                </ul>
-            </li>
             <li>Testimonials</li>
             <li>Certifications</li>
             <li>
@@ -26,6 +17,7 @@ function Content() {
             <li>Certifications</li>
             <li>Business Location</li>
             <li>Contact Form</li>
+            <li>Blockquote</li>
             <li>FAQs</li>
             <li>Footer & Quick Links</li>
             <li>
