@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Jumbotron from '../components/Jumbotron';
 import Purpose from '../components/Purpose';
 import Features from '../components/Features';
+import Contact from '../components/Contact';
 
 
 import mindVector from '../images/icons/mind-vector.svg'
@@ -26,6 +27,7 @@ function Hello() {
             />
             <Purpose />
             <Features />
+            <Contact />
             
         </article>
     )

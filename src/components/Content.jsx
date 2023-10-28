@@ -15,8 +15,6 @@ function Content() {
                 </ul>
             </li>
             <li>Certifications</li>
-            <li>Business Location</li>
-            <li>Contact Form</li>
             <li>Blockquote</li>
             <li>FAQs</li>
             <li>Footer & Quick Links</li>

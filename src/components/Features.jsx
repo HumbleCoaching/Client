@@ -17,7 +17,7 @@ function Features() {
 
 const Feature = ({ heading, body, image }) => {
     return (
-        <div className="p-5 flex flex-col-reverse md:odd:flex-row-reverse justify-evenly items-center odd:bg-green-300 even:bg-yellow-300">
+        <div className="p-5 flex flex-col-reverse md:odd:flex-row-reverse md:even:flex-row justify-evenly items-center odd:bg-green-300 even:bg-yellow-300">
             <div className="w-3/4 md:w-1/2 text-center md:text-left">
                 <header>
                     <h4 className="my-4 text-3xl font-bold">{heading}</h4>
@@ -25,7 +25,7 @@ const Feature = ({ heading, body, image }) => {
                 </header>
             </div>
             <div className="p-5">
-                <img className="rounded-lg h-96" src={image} alt="Assistance with work" />
+                <img className="rounded-lg h-96 shadow-lg" src={image} alt="Assistance with work" />
             </div>
         </div>
     )
