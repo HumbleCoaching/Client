@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Jumbotron from '../components/Jumbotron';
 import Purpose from '../components/Purpose';
 import Features from '../components/Features';
+import Testimonials from '../components/Testimonials';
 import Contact from '../components/Contact';
 
 
@@ -27,6 +28,7 @@ function Hello() {
             />
             <Purpose />
             <Features />
+            <Testimonials />
             <Contact />
             
         </article>

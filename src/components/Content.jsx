@@ -5,7 +5,6 @@ function Content() {
     <section className="px-10 mt-16">
         <h2 className="text-2xl font-bold">Contents of the webpage</h2>
         <ul className="list-disc">
-            <li>Testimonials</li>
             <li>Certifications</li>
             <li>
                 Projects & Experience
@@ -33,6 +32,16 @@ function Content() {
                     <li>Transitions and animations for the title from CodePen</li>
                 </ul>
             </li>
+            <li>
+                Testimonials
+                <ul className="indent-4">
+                    <li>Design brainstorming</li>
+                    <li>Images and content</li>
+                    <li>Which all fields to be displayed</li>
+                    <li>Clickability</li>
+                </ul>
+            </li>
+
         </ul>
     </section>
   )
